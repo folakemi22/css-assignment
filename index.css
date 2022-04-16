@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: .8rem;
+}
+
+header {
+    background-color: #66bfbf;
+    text-align: center;
+    box-sizing:inherit;
+     border: hidden 10px;
+    padding: 3rem;
+}
+
+header h1{
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    display: block;
+   
+}
+.right h2{
+    color: #fff;
+}
+.section_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 2rem 4rem 2rem 4rem ;
+ 
+    
+}
+
+.right > p{
+    word-wrap: break-word;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.right > h2{
+    text-align: center;
+}
+
+
+main h2 {
+    color: rgb(64, 224, 203);
+}
+
+.section_three {
+    text-align: center;
+    padding: 30px ;
+    line-height: 2rem;
+    }
+ 
+.section_three h2{
+    color:#66bfbf
+   
+}
+
+.section_three ul{
+    list-style-type: disc;
+}
+
+
+.section_three ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.section_four {
+    background-color: #ADDCDB;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding: 4rem 0;
+    line-height: 2;
+    text-align: center;
+}
+
+.section_four h2 h3{
+    display: block;
+    font-weight: bold;
+     font-family: "Montserrat", sans-serif;
+     font-size: 1.8rem;
+     color: #66bfbf;
+}
+
+.section_five{
+    padding: 2rem;
+}
+.section_five h2 {
+    font-family: "Merriweather", serif;
+    color: rgb(64, 224, 203);
+    text-align: center;
+
+}
+
+.section_six{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    line-height: 2rem;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #11999e;
+    color: white;
+}
+
+footer{
+    background-color:#119a9e;
+    line-height: 2;
+    box-sizing:inherit;
+    border: hidden 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    box-sizing: hidden 10px;
+    text-align: center;
+}
+  
+
